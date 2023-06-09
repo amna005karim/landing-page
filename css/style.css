@@ -1,0 +1,259 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ /* header */
+ .navbar-scroll .nav-link,
+ .navbar-scroll .navbar-toggler-icon,
+ .navbar-scroll .navbar-brand {
+   color: #fff;
+ }
+
+ .bg-image {
+   background-image: linear-gradient(rgba(3, 3, 3, 0.5), rgba(16, 16, 16, 0.5), rgba(40, 39, 39, 0.5), rgba(49, 48, 48, 0.5)), url(../images/1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .navbar-scrolled .nav-link,
+ .navbar-scrolled .navbar-toggler-icon,
+ .navbar-scrolled .navbar-brand {
+   color: #fff;
+ }
+
+
+ .navbar-scroll,
+ .navbar-scrolled {
+   background-color: #cbbcb1;
+
+ }
+
+ .mask-custom {
+   backdrop-filter: blur(5px);
+   background-color: rgba(255, 255, 255, .15);
+ }
+
+ .navbar-brand {
+   font-size: 30px !important;
+   letter-spacing: 3px;
+ }
+
+ /* text */
+ .bg-image .text {
+
+
+   font-family: 'Itim';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 70px;
+   line-height: 80px;
+   text-align: center;
+   letter-spacing: 0.08em;
+   text-transform: capitalize;
+   color: #FFFFFF;
+ }
+
+ .center-text {
+   position: absolute;
+   width: 972px;
+   height: 160px;
+   left: 215px;
+   top: 316px;
+
+ }
+
+ .btn-warning {
+   margin-left: 28rem;
+ }
+
+ .center-text button {
+   /* font-size: 2rem; */
+   background-color: #F44F1A;
+   color: #fff;
+   border: 1px solid #F44F1A;
+   width: 190px;
+   height: 47px;
+
+ }
+
+ .center-text button:hover {
+
+   background-color: #fff;
+   color: #F44F1A;
+   border: 1px solid #F44F1A;
+
+ }
+
+ @media (max-width:320px) {
+   .bg-image .text {
+     left: auto;
+     width: auto;
+     font-size: 34px;
+   }
+
+   .btn-warning {
+     margin-left: auto;
+   }
+ }
+
+ @media (max-width:375px) {
+   .bg-image .text {
+     left: auto;
+     width: auto;
+     top: 225px;
+     font-size: 40px;
+   }
+ }
+
+ @media (max-width:425) {
+   .bg-image .text {
+     left: auto;
+     width: auto;
+     top: 225px;
+     font-size: 40px;
+   }
+ }
+
+ /* europe on earth section  */
+ /* .text-center{
+  height: 5rem;
+ } */
+ .text-center .pic1 {
+   position: absolute;
+   width: 354px;
+   height: 534px;
+   left: 59px;
+   top: 892px;
+ }
+
+ .text-center .pic2 {
+   position: absolute;
+   width: 354px;
+   height: 355px;
+   left: 436px;
+   top: 892px;
+ }
+
+ .text-center .card {
+   position: absolute;
+   width: 400px;
+   height: 165px;
+   left: 390px;
+   top: 1261px;
+   background: #FFFFFF;
+   box-shadow: 18px 4px 30px rgba(0, 0, 0, 0.04);
+   border-radius: 4px;
+ }
+
+ .text-center .card p {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 20px;
+   text-align: start;
+
+   /* Text Color */
+
+   color: #2F3269;
+
+ }
+
+ .text-center .card a {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   text-decoration: none;
+   color: #F44F1A;
+ }
+
+ .text-center .card a:hover {
+   border-bottom: 2px solid #F44F1A;
+   cursor: pointer;
+ }
+
+ .text-center .card span {
+
+   background-color: #F44F1A;
+   width: 30px;
+   height: 30px;
+   border-radius: 999px;
+   /* display: inline-block; */
+   color: #fff;
+   position: absolute;
+   margin-top: -6px;
+   margin-left: 1rem;
+   transition: transform 0.3s;
+ }
+
+ .text-center .card i {
+   margin-top: -6px;
+   margin-left: -3px;
+ }
+
+ /* pop-up effect */
+
+ span:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+ }
+
+ /* paragraph */
+ .text-center .para {
+   position: absolute;
+   width: 373px;
+   height: 94px;
+   left: 833px;
+   top: 915px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 47px;
+   text-align: start;
+   /* Text Color */
+   color: #2F3269;
+ }
+
+ .content p {
+   position: absolute;
+   width: 500px;
+   height: 182px;
+   left: 835px;
+   top: 1033px;
+   text-align: start;
+   font-family: 'Montserrat';
+   font-style: normal;
+   /* font-weight: 400;
+font-size: 16px; */
+   line-height: 26px;
+   /* or 162% */
+
+   text-transform: capitalize;
+
+   /* text color */
+
+   color: #0F1232;
+ }
+
+ .content .learn-more {
+   position: absolute;
+   width: 190px;
+   height: 47px;
+   left: 570px;
+   top: 1247px;
+ }
+ .content .learn-more{
+  background-color: #F44F1A;
+  color: #fff;
+  border: 1px solid #F44F1A;
+ }
+ .content .learn-more:hover{
+  background-color:#fff ;
+  color: #F44F1A;
+  border: 1px solid #F44F1A;
+ }
